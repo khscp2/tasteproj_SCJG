@@ -1,0 +1,24 @@
+.jnavbar{
+    background-color: darkgreen;
+    color: black;
+    width: 100%;
+}
+
+.jbutton{
+    background-color: darkgreen;
+    color: black;
+    height:50px;
+}
+
+.jumbotext{
+    text-align:center;
+}
+
+.slideshowimg{
+    height:400px;
+    width:800px;
+}
+
+.headerfont{
+    color: darkgreen;
+}

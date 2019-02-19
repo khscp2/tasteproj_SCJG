@@ -10,8 +10,8 @@
     height:50px;
 }
 
-.jumbotext{
-    text-align:center;
+.jumbotextright{
+    text-align:right;
 }
 
 .slideshowimg{
@@ -25,4 +25,18 @@
 
 .jtablebody{
     background-color: lightgrey;
+}
+
+.jumbotextcenter{
+    text-align:center;
+}
+
+.logo{
+    height:200px;
+    width:250px;
+}
+
+.jtablehome{
+    width:100%;
+    background-color:lightgray;
 }

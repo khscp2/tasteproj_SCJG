@@ -26,3 +26,14 @@
 .jtablebody{
     background-color: lightgrey;
 }
+#logo{
+    width: 20%;
+    position: absolute;
+
+}
+.jumbotron-taste{
+    text-align: center;
+}
+.jumbotron-deli{
+    text-align: right;
+}

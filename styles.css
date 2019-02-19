@@ -27,6 +27,7 @@
     background-color: lightgrey;
     align-content: left
 }
+<<<<<<< HEAD
 #logo{
     width: 20%;
     position: absolute;
@@ -53,3 +54,19 @@
 .jumbotextcenter{
     text-align:center;
 }
+=======
+
+.jumbotextcenter{
+    text-align:center;
+}
+
+.logo{
+    width:20%;
+    position:absolute;
+}
+
+.jtablehome{
+    width:100%;
+    background-color:lightgray;
+}
+>>>>>>> d993335babf9779e2bdad110747874ee6af2a9fc

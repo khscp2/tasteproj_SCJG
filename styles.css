@@ -25,22 +25,8 @@
 
 .jtablebody{
     background-color: lightgrey;
+    align-content: left
 }
-<<<<<<< HEAD
-
-.jumbotextcenter{
-    text-align:center;
-}
-
-.logo{
-    width:20%;
-    position:absolute;
-}
-
-.jtablehome{
-    width:100%;
-    background-color:lightgray;
-=======
 #logo{
     width: 20%;
     position: absolute;
@@ -62,5 +48,8 @@
 
 .jtablehome2{
     background-color: lightgrey
->>>>>>> 2fd0c0f67948b22a837b46e3a506ed2cc41c2500
+}
+
+.jumbotextcenter{
+    text-align:center;
 }

@@ -26,6 +26,7 @@
 .jtablebody{
     background-color: lightgrey;
 }
+<<<<<<< HEAD
 
 .jumbotextcenter{
     text-align:center;
@@ -39,4 +40,27 @@
 .jtablehome{
     width:100%;
     background-color:lightgray;
+=======
+#logo{
+    width: 20%;
+    position: absolute;
+
+}
+.jumbotron-taste{
+    text-align: center;
+}
+.jumbotron-deli{
+    text-align: right;
+}
+
+.jtablehome{
+    background-color: lightgrey;
+    text-align:left;
+    position: absolute;
+    left: 15%
+}
+
+.jtablehome2{
+    background-color: lightgrey
+>>>>>>> 2fd0c0f67948b22a837b46e3a506ed2cc41c2500
 }

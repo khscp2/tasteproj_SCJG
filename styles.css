@@ -10,8 +10,8 @@
     height:50px;
 }
 
-.jumbotext{
-    text-align:center;
+.jumbotextright{
+    text-align:right;
 }
 
 .slideshowimg{
@@ -26,6 +26,7 @@
 .jtablebody{
     background-color: lightgrey;
 }
+<<<<<<< HEAD
 #logo{
     width: 20%;
     position: absolute;
@@ -36,4 +37,19 @@
 }
 .jumbotron-deli{
     text-align: right;
+=======
+
+.jumbotextcenter{
+    text-align:center;
+}
+
+.logo{
+    height:200px;
+    width:250px;
+}
+
+.jtablehome{
+    width:100%;
+    background-color:lightgray;
+>>>>>>> ff42c1f193c28f2af2025dfa5297db760789d7d7
 }

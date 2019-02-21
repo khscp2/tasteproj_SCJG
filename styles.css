@@ -25,9 +25,7 @@
 
 .jtablebody{
     background-color: lightgrey;
-    align-content: left
 }
-<<<<<<< HEAD
 #logo{
     width: 20%;
     position: absolute;
@@ -54,7 +52,6 @@
 .jumbotextcenter{
     text-align:center;
 }
-=======
 
 .jumbotextcenter{
     text-align:center;
@@ -69,4 +66,13 @@
     width:100%;
     background-color:lightgray;
 }
->>>>>>> d993335babf9779e2bdad110747874ee6af2a9fc
+
+.footerhours{
+    text-align: center; 
+}
+
+.jfooter{
+    background-color:rgb(37, 42, 42); 
+    color: white;
+}
+

@@ -26,6 +26,32 @@
 .jtablebody{
     background-color: lightgrey;
 }
+#logo{
+    width: 20%;
+    position: absolute;
+
+}
+.jumbotron-taste{
+    text-align: center;
+}
+.jumbotron-deli{
+    text-align: right;
+}
+
+.jtablehome{
+    background-color: lightgrey;
+    text-align:left;
+    position: absolute;
+    left: 15%
+}
+
+.jtablehome2{
+    background-color: lightgrey
+}
+
+.jumbotextcenter{
+    text-align:center;
+}
 
 .jumbotextcenter{
     text-align:center;
@@ -40,6 +66,7 @@
     width:100%;
     background-color:lightgray;
 }
+<<<<<<< HEAD
 div.printfriendly {
     margin: 0px 0px 0px 0px;
   }
@@ -89,3 +116,15 @@ div.printfriendly {
   .right {
     background-color: dark-green;
   }
+=======
+
+.footerhours{
+    text-align: center; 
+}
+
+.jfooter{
+    background-color:rgb(37, 42, 42); 
+    color: white;
+}
+
+>>>>>>> 3cf6665f1658a38b111db1f18e285150028bb4f5

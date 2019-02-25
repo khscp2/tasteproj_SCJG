@@ -66,6 +66,55 @@
     width:100%;
     background-color:lightgray;
 }
+div.printfriendly {
+    margin: 0px 0px 0px 0px;
+  }
+  div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+    text-decoration: none;
+    font-size: 14px;
+    color: #004444;
+    vertical-align: bottom;
+    border: none;
+  }
+
+  .printfriendly a:hover {
+    cursor: pointer;
+  }
+
+  .printfriendly a img  {
+    border: none;
+    padding:0;
+    margin-right: 6px;
+    display:inline-block;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+  .printfriendly a span{
+    vertical-align: bottom;
+  }
+  .pf-alignleft {
+    float: left;
+  }
+  .pf-alignright {
+    float: right;
+  }
+  div.pf-aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .slideshowimg {
+      width: 500px;
+  }
+  .left {
+      font-family: serif;
+      font-style: italic;
+  }
+  .right {
+    background-color: dark-green;
+  }
 
 .footerhours{
     text-align: center; 
@@ -75,8 +124,55 @@
     background-color:rgb(37, 42, 42); 
     color: white;
 }
+/* /-/-/-/-/-/-/-/ Color Scheme: Light-Green /-/-/-/-/-/-/-/-/ */
 
-.jcateringmenu{
-    background-color: darkgrey;
-    
+.textlogo a { color: darkgreen; }
+h3, p.featured, #navigation li ul li a:hover, .page-navigation li a:hover, #featured-areas .widget-title a, #information-areas a, #footer-areas a:hover, .sidebar-areas .widget-title, .post h4 a, .menucard-item h3 a, .continue-button a:hover, .continue-link a, .post-head h2 a, #categories li a:hover, #categories .current-cat a, #archives li a:hover, .widget_nav_menu li a:hover, .widget_nav_menu li.current-menu-item a, .widget_nav_menu li .sub-menu li.current-menu-item a, .widget_testimonial .testimonial p, #footer-areas .news-title a { color: #508273; }
+.button.default a, button.default { border: 1px solid darkgreen; background-color: darkgreen; }
+#pagetitle .back a:hover, .page-navigation li.current-cat:hover, .page-navigation li.current-cat-parent:hover, .menucard-item .menucard-item-price { background-color: #508273 !important; }
+#navigation .inside { background: darkgreen url("https://cdn1.imggmi.com/uploads/2019/2/25/31cab2de772f996cf99b366f4804b371-full.png") left bottom repeat-x; }
+#navigation li.current-menu-item a { background-color: darkgreen; }
+
+/* DatePicker */
+.ui-widget-header { background-color: #508273; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight { background: #508273 !important; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { background: #508273 !important; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #508273; color: #508273; }
+
+/* Darker */
+#pagetitle { background: darkgreen url("../../images/slideshow/shadows.png") left top no-repeat; }
+.page-navigation li.current-cat, .page-navigation li.current-cat-parent { background-color: darkgreen; }
+.ribbon-left { background: darkgreen url("../../images/ribbon/bg-ribbon-light.png") left top repeat-x; }
+.ribbon-right { background: darkgreen url("../../images/ribbon/bg-ribbon-light.png") right top repeat-x; }
+
+#stars .star { background: url("../../images/star-dark.png") left top no-repeat; }
+
+/* Navigation Separators */
+#navigation #menu-main-menu { background-image: url("../../images/line-menu-light14.png"); background-position: right top; background-repeat: repeat-y; }
+#navigation li { background-image: url("../../images/line-menu-light14.png"); background-position: left top; background-repeat: repeat-y; }
+#navigation li a { background-image: url("../../images/line-menu-dark14.png"); background-position: right top; background-repeat: repeat-y; }
+
+/* Secondary Color */
+#header, #navigation { background-color: white; }
+#footer-areas, #footer { background-color: #282832; }
+/* Secondary Color - Components */
+#tagline, #tools #reservation .light, #tools #searching .input, .menucard-item .menucard-item-ingredients { color: #828796; }
+#footer-areas, #footer-areas a, #footer, #footer a { color: #646978; }
+#footer-areas .widget-title { color: darkgreen; }
+
+#tools #searching .input { background: transparent url("../../images/searching-input-light.png") left top no-repeat; }
+#tools #searching .input:focus { background: transparent url("../../images/searching-input-light.png") left -45px no-repeat; }
+#tools #searching .submitbutton { background: transparent url("../../images/searching-button-light.png") left top no-repeat; }
+#tools #searching .submitbutton:hover { background-position: left bottom; }
+
+.display-4 {
+    text-align: center;
+}
+.item {
+    border-style: groove;
+    border-width: 15px;
+    border-color: darkgreen;
+}
+.menucard-item-price {
+    background-color: darkgreen !important;
 }

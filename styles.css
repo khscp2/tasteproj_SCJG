@@ -176,3 +176,16 @@ h3, p.featured, #navigation li ul li a:hover, .page-navigation li a:hover, #feat
 .menucard-item-price {
     background-color: darkgreen !important;
 }
+table {
+    position: relative;
+    margin-top: 100px;
+}
+.btn-success {
+    position: relative;
+    margin-top: 40px;
+}
+table {
+    border-style:groove;
+    border-width: 5px;
+    border-color: darkgreen;
+}

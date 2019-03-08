@@ -137,10 +137,6 @@ table {
     position: relative;
     margin-top: 40px;
 }
-table {
-    border-style:groove;
-    border-width: 5px;
-    border-color: darkgreen;
 
 .jtablehome{
     width:100%;
@@ -167,3 +163,26 @@ table {
     color: black;
     font-size: 18px;
 }
+
+.iframefun{
+    height: 225px;
+}
+
+.contacthead{
+    text-align:center;
+    color:darkslategray;
+    font-family: impact;
+    
+}
+
+.contactdivv{
+    border: solid;
+    border-color: darkgreen; 
+    border-width: 10px;
+}
+
+.jreviewbox{
+    color: darkgreen;
+    
+}
+

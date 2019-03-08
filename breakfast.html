@@ -3,11 +3,7 @@
         <head>
         
         <title>A Taste of Reality Deli and Catering</title>
-        
-        <link rel="stylesheet" href="http://atasteofrealitycatering.com/wp-content/themes/gusteau/css/components.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="http://atasteofrealitycatering.com/wp-content/themes/gusteau/css/colors/light-green.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="http://atasteofrealitycatering.com/wp-content/themes/gusteau/style.css" type="text/css" media="screen" />
-
+    
          <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +24,7 @@
                 
             <div class="jumbotron">
                 
-              <img class="logo" src="https://cdn1.imggmi.com/uploads/2019/2/11/19b4148a8da393098db8677de8d8a86f-full.png">
+              <img class="logo" type="image/png" src="TasteLogo.png">
               <h1 class="headerfont jumbotextcenter">A Taste of Reality</h1>
               <h1 class="jumbotextright headerfont">Deli and Catering</h1>
                 
@@ -44,9 +40,9 @@
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a href="breakfast.html">Breakfast</a></li>
+                              <li class="active"><a href="breakfast.html">Breakfast</a></li>
                               <li><a href="sandwiches.html">Sandwiches</a></li>
-                              <li><a href="favoritesmenu.html">Our Favorites</a></li>
+                              <li><a href="ourfavorites.html">Our Favorites</a></li>
                             </ul>
                         </li>
                         <li><a href="catering.html">Catering <span class="glyphicon glyphicon-cutlery"></span></a></li>
@@ -95,11 +91,7 @@
                   </a>
                 </div>
                 <div class="container">
-                <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
+
                 </div>
             </div>
             <table class="table">
@@ -107,8 +99,8 @@
                     <tr>
                         <td>
                             <div>
-                                <h3>Burrito</h3> 
-                                <span><p>Double scrambled eggs, cheddar cheese, potatoes, peppers, onions & salsa in a wrap</p>
+                                <h3 class="jcateringmenuheader">Burrito</h3> 
+                                <p class="jcateringmenudes">Double scrambled eggs, cheddar cheese, potatoes, peppers, onions & salsa in a wrap</p>
                             </div>
                         </td>
                         <td>
@@ -116,8 +108,8 @@
                         </td>
                         <td>
                             <div>
-                                    <h3>Cheestopher</h3>
-                                    <p>Grilled cheese on white with taylor ham and cheese</p>
+                                    <h3 class="jcateringmenuheader">Cheestopher</h3>
+                                    <p class="jcateringmenudes">Grilled cheese on white with taylor ham and cheese</p>
                             </div>
                         </td>
                         <td>
@@ -127,8 +119,8 @@
                     <tr>
                             <td>
                                 <div>
-                                    <h3>Double Egg</h3>
-                                    <p>Double any style egg any style</p>
+                                    <h3 class="jcateringmenuheader">Double Egg</h3>
+                                    <p class="jcateringmenudes">Double any style egg any style</p>
                                 </div>
                             </td>
                             <td>
@@ -136,28 +128,8 @@
                             </td>
                             <td>
                                 <div>
-                                        <h3>Double Egg Cheese</h3>
-                                        <p>Double egg any style with cheese</p>
-                                </div>
-                            </td>
-                            <td>
-                                    <button type="button" class="btn btn-success" onclick="alert('Your order has been placed. Thank you!')">$5.99</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <h3>Double Egg Platter</h3>
-                                    <p>Two eggs any style with your choice of toast, hash browns and either bacon, Taylor ham or sausage</p>
-                                </div>
-                            </td>
-                            <td>
-                                    <button type="button" class="btn btn-success" onclick="alert('Your order has been placed. Thank you!')">$5.99</button>
-                            </td>
-                            <td>
-                                <div>
-                                        <h3>Early Bird</h3>
-                                        <p>Egg any style with cheese on an English Muffin</p>
+                                        <h3 class="jcateringmenuheader">Double Egg Cheese</h3>
+                                        <p class="jcateringmenudes">Double egg any style with cheese</p>
                                 </div>
                             </td>
                             <td>
@@ -167,8 +139,8 @@
                         <tr>
                             <td>
                                 <div>
-                                    <h3>Egg with Cheese</h3>
-                                    <p>Egg any style with cheese</p>
+                                    <h3 class="jcateringmenuheader">Double Egg Platter</h3>
+                                    <p class="jcateringmenudes">Two eggs any style with your choice of toast, hash browns and either bacon, Taylor ham or sausage</p>
                                 </div>
                             </td>
                             <td>
@@ -176,8 +148,28 @@
                             </td>
                             <td>
                                 <div>
-                                        <h3>Egg any Style</h3>
-                                        <p>Egg any style</p>
+                                        <h3 class="jcateringmenuheader">Early Bird</h3>
+                                        <p class="jcateringmenudes">Egg any style with cheese on an English Muffin</p>
+                                </div>
+                            </td>
+                            <td>
+                                    <button type="button" class="btn btn-success" onclick="alert('Your order has been placed. Thank you!')">$5.99</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <h3 class="jcateringmenuheader">Egg with Cheese</h3>
+                                    <p class="jcateringmenudes">Egg any style with cheese</p>
+                                </div>
+                            </td>
+                            <td>
+                                    <button type="button" class="btn btn-success" onclick="alert('Your order has been placed. Thank you!')">$5.99</button>
+                            </td>
+                            <td>
+                                <div>
+                                        <h3 class="jcateringmenuheader">Egg any Style</h3>
+                                        <p class="jcateringmenudes">Egg any style</p>
                                 </div>
                             </td>
                             <td>
@@ -186,8 +178,8 @@
                         </tr>    
                             <td>
                                     <div>
-                                        <h3>Gut Buster</h3>
-                                        <p>Double Egg, Double Cheese, Hash Browns, and Taylor Ham* on a Long Roll
+                                        <h3 class="jcateringmenuheader">Gut Buster</h3>
+                                        <p class="jcateringmenudes">Double Egg, Double Cheese, Hash Browns, and Taylor Ham* on a Long Roll
 
                                             *Substitute Bacon or Sausage</p>
                                     </div>
@@ -197,8 +189,8 @@
                                 </td>
                                 <td>
                                     <div>
-                                            <h3>Monster</h3>
-                                            <p>Double Egg, Double Cheese with Taylor Ham*
+                                            <h3 class="jcateringmenuheader">Monster</h3>
+                                            <p class="jcateringmenudes">Double Egg, Double Cheese with Taylor Ham*
 
                                                 *Substitute Bacon or Sausage</p>
                                     </div>
@@ -210,8 +202,8 @@
                             <tr>
                                     <td>
                                         <div>
-                                            <h3>Omelette</h3>
-                                            <p>Triple scrambled egg with ham and cheese served with hash browns and toast in a platter</p>
+                                            <h3 class="jcateringmenuheader">Omelette</h3>
+                                            <p class="jcateringmenudes">Triple scrambled egg with ham and cheese served with hash browns and toast in a platter</p>
                                         </div>
                                     </td>
                                     <td>
@@ -219,8 +211,8 @@
                                     </td>
                                     <td>
                                         <div>
-                                                <h3>TH&C</h3>
-                                                <p>Taylor Ham and Cheese</p>
+                                                <h3 class="jcateringmenuheader">TH&C</h3>
+                                                <p class="jcateringmenudes">Taylor Ham and Cheese</p>
                                         </div>
                                     </td>
                                     <td>
@@ -230,8 +222,8 @@
                                 <tr>
                                         <td>
                                             <div>
-                                                <h3>Special</h3>
-                                                <p>Egg any style with cheese, Taylor Ham, Sausage or Bacon</p>
+                                                <h3 class="jcateringmenuheader">Special</h3>
+                                                <p class="jcateringmenudes">Egg any style with cheese, Taylor Ham, Sausage or Bacon</p>
                                             </div>
                                         </td>
                                         <td>
@@ -239,8 +231,8 @@
                                         </td>
                                         <td>
                                             <div>
-                                                    <h3>The Skinny</h3>
-                                                    <p>Triple egg white with spinach, tomato and feta cheese in a whole wheat wrap</p>
+                                                    <h3 class="jcateringmenuheader">The Skinny</h3>
+                                                    <p class="jcateringmenudes">Triple egg white with spinach, tomato and feta cheese in a whole wheat wrap</p>
                                             </div>
                                         </td>
                                         <td>

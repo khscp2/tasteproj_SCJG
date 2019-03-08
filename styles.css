@@ -163,6 +163,38 @@ table {
     color: black;
     font-size: 18px;
 }
+.fun {
+    position: relative;
+    margin-top: 300px;
+}
+.cool {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    float: right;
+    width: 13.5%;
+}
+.winner {
+    text-align: center;
+}
+.haha {
+    position: absolute;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    margin-top: 1%;
+    margin-right: -3%;
+    background-image: url(../img/jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.won {
+    width: 13.5%;
+    float: left;
+}
 
 .iframefun{
     height: 225px;

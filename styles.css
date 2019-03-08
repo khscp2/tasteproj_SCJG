@@ -218,3 +218,10 @@ table {
     
 }
 
+ .list-group {
+     width: 50% !important;
+     border-style: groove;
+     border-width: 10px;
+     border-color: darkgreen;
+     border-collapse: collapse;
+ }

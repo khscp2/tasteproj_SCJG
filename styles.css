@@ -172,7 +172,7 @@ table {
     text-align:center;
     color:darkslategray;
     font-family: impact;
-    
+    font-size: 34px;
 }
 
 .contactdivv{
@@ -186,3 +186,6 @@ table {
     
 }
 
+.contactdivcont{
+    font-size: 20px;
+}
